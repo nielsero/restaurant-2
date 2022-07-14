@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 270px;
+}
+
+.navbar__link-container {
+    display: flex;
+    justify-content: center;
+    width: 33.3%;
+}
+
+.navbar__link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: .3rem;
+}
