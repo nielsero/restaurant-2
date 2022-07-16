@@ -1,12 +1,7 @@
-import "./navbar.css";
-
-// Receives a list of names for the nav links and returns a navbar with all those links
-export default function createNavbar(navLinkNames) {
-    // Creating the nav
+export default function createNavbar(navLinkNames) { // navLinkNames -> array of names for the links
     const nav = document.createElement('nav');
     nav.classList.add("navbar");
 
-    // Creating the nav link containers, appending the nav-links and adding it all to the nav-bar
     navLinkNames.forEach((name) => {
         const navLinkContainer = document.createElement('div');
         navLinkContainer.classList.add("navbar__link-container");
