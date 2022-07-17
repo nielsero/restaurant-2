@@ -10,6 +10,7 @@ export default function createNavbar(navLinkNames) { // navLinkNames -> array of
         navLink.href = "#";
         navLink.textContent = name;
         navLink.classList.add("navbar__link");
+        navLink.setAttribute("data-link", `${name.toLowerCase()}`);
 
         navLinkContainer.appendChild(navLink);
         nav.appendChild(navLinkContainer);

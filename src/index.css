@@ -65,6 +65,7 @@
   color: white;
   border-bottom: 2px solid transparent;
   padding-bottom: .3rem;
+  cursor: pointer;
 }
 
 .home {
