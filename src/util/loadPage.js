@@ -24,5 +24,8 @@ export default function loadPage() {
     tab.appendChild(home);
     content.appendChild(footer);
 
+    const homeLink = document.querySelector("[data-link = 'inicio']");
+    homeLink.classList.add("navbar__link_active");
+
     return true;
 }

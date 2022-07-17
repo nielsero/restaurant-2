@@ -1,24 +1,10 @@
 import createItem from "../../components/item/item";
-import image1 from "../../assets/menu/chicken-yassa-senegal.jpg";
-import image2 from "../../assets/menu/cossa-cossa-drc.jpg";
 import image3 from "../../assets/menu/piri-piri-chicken-mozambique.jpg";
 import image4 from "../../assets/menu/ndole-cameroon.jpeg";
 import image5 from "../../assets/menu/baghrir-morocco.jpg";
 import image6 from "../../assets/menu/qatayef-egypt.jpg";
 
 const menuItems = [
-    {
-        name: 'Frango Yassa',
-        image: image1,
-        description: "De Senegal 🇸🇳",
-        price: 100,
-    },
-    {
-        name: 'Cossa Cossa',
-        description: "Da RDC 🇨🇩",
-        image: image2,
-        price: 100,
-    },
     {
         name: 'Frango Piri Piri',
         description: "De Moçambique 🇲🇿",
